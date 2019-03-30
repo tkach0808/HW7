@@ -1,0 +1,163 @@
+.nav-wrp {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 39px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.nav-bar {
+  width: 485px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0;
+}
+.nav-link:hover {
+  color: rgb(254, 209, 54);
+}
+.services-wrp {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 19px;
+}
+.subtitle {
+  font-size: 16px;
+  font-family: "Bitter";
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 77px;
+}
+.services-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.services-link {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 121px;
+}
+.services-link-img {
+  height: 40px;
+  width: 40px;
+  padding: 15px;
+  border: solid 3px rgb(254, 209, 54);
+  border-radius: 50%;
+}
+.services-link-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.services-link-text {
+  font-family: "Bitter";
+  color: rgb(119, 119, 119);
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  text-indent: 15px;
+}
+.conteiner-fluid-form {
+  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url(./background/map.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.form-wrp {
+  width: 940px;
+  padding-top: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact--title {
+  color: rgb(255, 255, 255);
+}
+.contact-form-wrp {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.contact-inputs {
+  width: 455px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.contact-input {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  width: 455px;
+  height: 55px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.contact-textarea {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  width: 455px;
+  height: 220px;
+  padding-top: 15px;
+  padding-left: 15px;
+  border: 0;
+  border-radius: 6px;
+}
+.contact-submit {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 25px 40px;
+  border: 0;
+  background-color: rgb(254, 209, 54);
+  border-radius: 6px;
+  margin-bottom: 100px;
+}
+
+.contact-input,
+.contact-textarea {
+  box-sizing: border-box;
+  margin: 14px 0;
+  width: 455px;
+  display: block;
+  outline: 4px solid transparent;
+  outline-offset: -2px;
+  transition: outline-color 0.1s;
+}
+
+input[type="email"]:focus:invalid,
+textarea[name="body"]:focus:invalid,
+input[name="name"]:focus:invalid {
+  outline-color: red;
+  transition: outline-color 5s;
+}
+
+input[type="email"]:focus:valid,
+textarea[name="body"]:focus:valid,
+input[name="name"]:focus:valid {
+  outline-color: green;
+  transition: outline-color 0.4s;
+}

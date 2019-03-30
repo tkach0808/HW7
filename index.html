@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./fonts.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HW7</title>
+  </head>
+  <body>
+    <header class="nav-wrp">
+      <div class="logo-wrp">
+        <img src="./logo/logo.png" alt="logo" />
+      </div>
+      <div class="nav-bar-wrp">
+        <ul class="nav-bar">
+          <li class="nav-link">Home</li>
+          <li class="nav-link">Services</li>
+          <li class="nav-link">Portfolio</li>
+          <li class="nav-link">About</li>
+          <li class="nav-link">Contact</li>
+        </ul>
+      </div>
+    </header>
+    <section class="services-wrp">
+      <h2 class="title services--title">Services</h2>
+      <h3 class="subtitle services--subtitle">
+        Lorem ipsum dolor sit amet consectetur elit.
+      </h3>
+      <div class="srvices-cards-wrp">
+        <ul class="services-card">
+          <li class="services-link">
+            <img
+              class="services-link-img"
+              src="./icons/icon-basket.png"
+              alt="basket"
+            />
+            <h4 class="services-link-title">E-Commerce</h4>
+            <p class="services-link-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              quibusdam, consectetur libero perspiciatis
+            </p>
+          </li>
+          <li class="services-link">
+            <img
+              class="services-link-img"
+              src="./icons/icon-laptop.png"
+              alt="laptop"
+            />
+            <h4 class="services-link-title">Responsive Web</h4>
+            <p class="services-link-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              quibusdam, consectetur libero perspiciatis
+            </p>
+          </li>
+          <li class="services-link">
+            <img
+              class="services-link-img"
+              src="./icons/icon-locked.png"
+              alt="basket"
+            />
+            <h4 class="services-link-title">Web Security</h4>
+            <p class="services-link-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              quibusdam, consectetur libero perspiciatis
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="conteiner-fluid-form">
+      <section class="form-wrp">
+        <h2 class="title contact--title">contact us</h2>
+        <h3 class="subtitle contact--subtitle">
+          Lorem ipsum dolor sit amet consectetur elit.
+        </h3>
+        <form class="contact-form" action="#" method="post">
+          <div class="contact-form-wrp">
+            <div class="contact-inputs">
+              <input
+                class="contact-input"
+                type="text"
+                name="name"
+                placeholder="you name *"
+                required
+              />
+              <input
+                class="contact-input"
+                type="email"
+                name="email"
+                placeholder="you E-mail *"
+                required
+              />
+              <input
+                class="contact-input"
+                type="text"
+                name="subject"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="contact-textarea-wrp">
+              <textarea
+                class="contact-textarea"
+                name="body"
+                cols="30"
+                rows="10"
+                placeholder="Your Message *"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <button class="contact-submit" type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
